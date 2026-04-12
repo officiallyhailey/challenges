@@ -3,9 +3,9 @@ import data from './data.json'
 import './App.css'
 import './index.css'
 import React, { useState } from 'react';
-import ExtensionCard from '/src/components/extensionsCard';
-import Header from '/src/components/header';
-import FilterBar from '/src/components/filterBar';
+import ExtensionCard from './components/extensionsCard';
+import Header from './components/header';
+import FilterBar from './components/filterBar';
 
 function App() {
   const [extensions, setExtensions] = useState(data);

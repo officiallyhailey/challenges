@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Noto Sans';
-    src: url('./src/fonts/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    src: url('/challenges/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype-variations');
     font-weight: 100 900;
     font-stretch: 75% 125%;
     font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Noto Sans';
-    src: url('./src/fonts/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    src: url('/challenges/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
     font-weight: 100 900;
     font-stretch: 75% 125%;
     font-style: italic;
