@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('./src/fonts/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-stretch: 75% 125%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('./src/fonts/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+    font-stretch: 75% 125%;
+    font-style: italic;
+}
+
+:root {
+    color-scheme: dark;
+    font-family: 'Noto Sans';
+    --page-bg:
+        radial-gradient(circle at top, rgba(13, 13, 15, 0.921), transparent 32%),
+        linear-gradient(150deg, #191b22fe 0%, #11195c 100%);
+    --surface-bg: rgba(53, 53, 53, 0.432);
+    --surface-border: rgba(255, 255, 255, 0.08);
+    --search-bg: rgba(63, 63, 63, 0.311);
+    --text-main: #f6f8ff;
+    --text-muted: rgba(255, 255, 255, 0.68);
+    --input-placeholder: rgba(255, 255, 255, 0.5);
+    --button-bg: rgba(63, 63, 63, 0.311);
+    --filter-bg: rgba(63, 63, 63, 0.311);
+    --filter-border: rgba(255, 255, 255, 0.12);
+    --filter-text: #dbe0ff;
+}
+
+.lightTheme {
+    color-scheme: light;
+    --page-bg:
+        radial-gradient(circle at top, rgba(75, 96, 255, 0.08), transparent 24%),
+        linear-gradient(180deg, #eef3fb 0%, #f7f9ff 100%);
+    --surface-bg: rgba(255, 255, 255, 0.95);
+    --surface-border: rgba(15, 23, 42, 0.08);
+    --search-bg: rgba(255, 255, 255, 0.98);
+    --text-main: #0f172a;
+    --text-muted: rgba(15, 23, 42, 0.68);
+    --input-placeholder: rgba(15, 23, 42, 0.45);
+    --button-bg: rgba(15, 23, 42, 0.08);
+    --filter-bg: rgba(255, 255, 255, 0.92);
+    --filter-border: rgba(15, 23, 42, 0.234);
+    --filter-text: #0f172a;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--page-bg);
+}
+
+.home {
+    min-height: 100vh;
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--text-main);
+    background: var(--page-bg);
+}
