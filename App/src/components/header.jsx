@@ -1,10 +1,14 @@
+import logo from '../images/logo.svg'
+import iconSun from '../images/icon-sun.svg'
+import iconMoon from '../images/icon-moon.svg'
+
 function Header({ isDarkMode, searchTerm, onSearchChange, onToggleTheme }) {
   return (
     <header className='pageHeader'>
       <div className='topBar'>
         <div className='searchBar'>
           <div className='searchIcon'>
-            <img src="./src/images/logo.svg" alt="Logo" className='searchIconImage' />
+            <img src={logo} alt="Logo" className='searchIconImage' />
           </div>
 
           <input
@@ -16,7 +20,7 @@ function Header({ isDarkMode, searchTerm, onSearchChange, onToggleTheme }) {
 
           <button type='button' className='themeButton' aria-label='Toggle theme' onClick={onToggleTheme}>
             <img
-              src={isDarkMode ? "./src/images/icon-sun.svg" : "./src/images/icon-moon.svg"}
+              src={isDarkMode ? iconSun : iconMoon}
               alt={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
             />
           </button>
