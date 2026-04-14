@@ -1,4 +1,3 @@
-'use client';
 import data from './data.json'
 import './App.css'
 import './index.css'
