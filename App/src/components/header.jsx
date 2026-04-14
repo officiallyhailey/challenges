@@ -13,7 +13,7 @@ function Header({ isDarkMode, searchTerm, onSearchChange, onToggleTheme }) {
 
           <input
             type='search'
-            placeholder=''
+            placeholder='Search'
             value={searchTerm}
             onChange={(e) => onSearchChange(e.target.value)}
           />

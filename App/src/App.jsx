@@ -52,7 +52,6 @@ function App() {
           <div className='dataContainer'>
             {filteredExtensions.map((ext) => (
               <ExtensionCard
-                key={ext.name}
                 extension={ext}
                 onToggle={toggleExtension}
                 onRemove={removeExtension}
