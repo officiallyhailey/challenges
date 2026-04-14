@@ -63,7 +63,7 @@ I also added a search bar to the header beyond what the original challenge calle
 
 ### Continued Development
 
-Getting this deployed taught me a lot about the difference between something working locally and something working in production. File paths, how Vite bundles assets, base paths for GitHub Pages — none of that is obvious until you run into it. I want to go into the next project with a better deployment plan from the start instead of solving it at the end.
+Getting this deployed taught me a lot about the difference between something working locally and something working in production. File paths, how Vite bundles assets, base paths for GitHub Pages - none of that is obvious until you run into it. I want to go into the next project with a better deployment plan from the start instead of solving it at the end.
 
 I also want to keep building with React and dig deeper into state management as projects get more complex.
 
@@ -75,9 +75,9 @@ I also want to keep building with React and dig deeper into state management as 
 
 ## AI Collaboration
 
-I didn't use AI to write my code but I did build a custom Claude-powered code grader that would take what I wrote, grade it against industry standards, and give recommendations — without touching the actual code. That distinction mattered to me. I wanted to understand what I was building, not just ship something that worked.
+I didn't use AI to write my code but I did build a custom Claude-powered code grader that would take what I wrote, grade it against industry standards, and give recommendations - without touching the actual code. That distinction mattered to me. I wanted to understand what I was building, not just ship something that worked.
 
-Where AI really helped was deployment. Getting a React/Vite app from "works on my machine" to a live GitHub Pages URL involved a lot of moving parts I hadn't dealt with before — base paths, how assets get bundled, why images and fonts that worked locally would break in production. A lot of that came down to file structure and how you call things, which is something I'll carry into every project going forward.
+Where AI really helped was deployment. Getting a React/Vite app from "works on my machine" to a live GitHub Pages URL involved a lot of moving parts I hadn't dealt with before - base paths, how assets get bundled, why images and fonts that worked locally would break in production. A lot of that came down to file structure and how you call things, which is something I'll carry into every project going forward.
 
 ---
 
