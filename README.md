@@ -55,11 +55,11 @@ Users should be able to:
 
 ### What I Learned
 
-Coming into this with a solid base in HTML, CSS, and JavaScript made picking up React feel like a natural progression rather than starting from zero. The concepts weren't foreign — it was more about learning a new way to think about structure and reusability.
+Coming into this with a solid base in HTML, CSS, and JavaScript made picking up React feel like a natural progression rather than starting from zero. The concepts weren't foreign - it was more about learning a new way to think about structure and reusability.
 
 The thing that clicked the most was components and how to work with `.map()` in `App.jsx` to render the extension cards dynamically. Once that made sense, the whole project started to come together. Getting data to flow through props correctly and understanding how components talk to each other was where I spent the most time, and honestly where I learned the most.
 
-I also added a search bar to the header beyond what the original challenge called for — a small addition but one that felt good to build on top of the base requirements.
+I also added a search bar to the header beyond what the original challenge called for - a small addition but one that felt good to build on top of the base requirements.
 
 ### Continued Development
 
